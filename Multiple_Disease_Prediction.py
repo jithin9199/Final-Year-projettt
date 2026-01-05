@@ -181,6 +181,7 @@ def breast_cancer_prediction(input_data):
 
 def main():
     # sidebar for navigate
+    import streamlit as st
 
     with st.sidebar:
     
@@ -563,8 +564,9 @@ def main():
 
 
     
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
+
 
 
 
